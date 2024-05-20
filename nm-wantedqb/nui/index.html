@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NProbleM Mining</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body style="background-color: transparent;">
+
+    <div class="main">
+        <div class="image" style="margin-top: 2.5%; display: flex; align-items: center; justify-content: center;">
+            <img src="bg-image.png" style="width: 32%;"> 
+        </div>
+        <div class="texts">
+            <div class="header"> 
+                <p style="display: flex; align-items: start; justify-content: start; font-size: 20px; font-family: 'IBM Plex Serif', serif;"> <span class="date"> 14/01/2024 </span> &nbsp;<span style="font-weight: 800;"> | </span> </p>
+                <p style="position: relative; top: -100%; left: 0%; display: flex; align-items: center; justify-content: center; font-size: 25px; font-family: 'IBM Plex Serif', serif; font-weight: 700;">Police Department</p>
+                <p style="position: relative; top: -146%; display: flex; align-items: end; justify-content: end; font-size: 20px; font-family: 'IBM Plex Serif', serif;"><span style="font-weight: 800;"> | </span>&nbsp; Police News</p>
+            </div>
+            <div class="reason-background">
+                <br>
+                <p style="display: flex; align-items: center; justify-content: center; font-size: 60px; font-family: 'IBM Plex Serif', serif; font-weight: 600;">Wanted</p>
+                <p class="reason" style="position: relative; left: 10%; display: flex; align-items: center; justify-content: center; font-size: 40px; font-family: 'IBM Plex Serif', serif; font-weight: 600; width: 80%; background-color: black; color: white; height: 25%;"> For Bank Robbery</p>
+            </div>
+            <div class="face-background">
+                <div style="position: relative; left: 25%; width: 50%; height: 100%; border: 5px solid black; overflow: hidden;">
+                    <img class="face" style="width: 100%; height: 100%;" src="https://cdn.discordapp.com/attachments/991048319121911868/1196165449646350477/image-removebg-preview_1.png?ex=65b6a2e2&is=65a42de2&hm=2804b59dbb114de178f6d64cc8e8a7e69397493fbff5dd74fb5ab040272096f5&">
+                </div>
+            </div>
+            <div class="desc-background">
+                <br>
+                <p style="position: relative; left: 0.5%; font-size: 30px;">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+                <div class="description" style="position: relative; left: 5%; width: 90%; height: 18%; overflow: hidden; font-size: 20px; text-align: center; font-family: 'IBM Plex Serif', serif; font-weight: 600;">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+                <p style="display: flex; align-items: center; justify-content: center; overflow: hidden; font-size: 35px; font-family: 'Bree Serif', serif; font-weight: 400;">REWARD</p>
+                <div style="position: relative; left: 32.5%; width: 40%; height: 15%;">
+                    <p class="reward_amount" style="display: flex; align-items: center; justify-content: center; width: 90%; overflow: hidden; font-size: 25px; font-family: 'Bree Serif', serif; font-weight: 400;">$2500000</p>
+                </div>
+                <p style="display: flex; align-items: center; justify-content: center; font-size: 25px; font-family: 'IBM Plex Serif', serif; font-weight: 700; text-decoration: underline;">Los Santos Police Department</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="background">
+        <p style="margin-top: 0%; font-family: 'Dongle', sans-serif; color: white; font-size: 35px;">Wanted person</p>
+        <p style="font-family: 'Dongle', sans-serif; color: white; font-size: 25px; margin-top: -2.5%;"><span style="font-size: 15px;"><i class="fas fa-clock"></i></span>  Date (DD/MM/YYYY) <span style="color: rgba(255, 0, 0, 0.8);">*</span></p>
+        <input class="date_input" style="position: relative; top: 0%;">
+        <p style="font-family: 'Dongle', sans-serif; color: white; font-size: 25px; margin-top: 2.5%;"><span style="font-size: 15px;"><i class="fas fa-user-ninja"></i></span> Reason <span style="color: rgba(255, 0, 0, 0.8);">*</span></p>
+        <input class="reason_input" style="position: relative; top: 0%;">
+        <p style="font-family: 'Dongle', sans-serif; color: white; font-size: 25px; margin-top: 2.5%;"><span style="font-size: 15px;"><i class="fas fa-scroll"></i></span> Description <span style="color: rgba(255, 0, 0, 0.8);">*</span></p>
+        <input class="desc_input" style="position: relative; top: 0%;">
+        <p style="font-family: 'Dongle', sans-serif; color: white; font-size: 25px; margin-top: 2.5%;"><span style="font-size: 18px;"><i class="fas fa-dollar-sign"></i></span> Reward <span style="color: rgba(255, 0, 0, 0.8);">*</span></p>
+        <input class="reward_input" style="position: relative; top: 0%;">
+        <p style="font-family: 'Dongle', sans-serif; color: white; font-size: 25px; margin-top: 2.5%;"><span style="font-size: 18px;"><i class="fas fa-images"></i></span> Image <span style="color: rgba(255, 0, 0, 0.8);">*</span></p>
+        <input class="img_input" style="position: relative; top: 0%; left: 13%;">
+        <button class="confirm_button" style="color: white; position: relative; top: 28%; left: -25%; width: 25%; height: 8%; border: none; border-radius: 5px; background-color: rgba(108, 122, 137, 1); font-weight: 550; font-size: 15px;">Confirm</button>
+        <button style="color: white; position: relative; top: 20%; left: 35%; width: 25%; height: 8%; border: none; border-radius: 5px; background-color: rgba(191,191,191, 0.5); font-weight: 550; font-size: 15px;">Close</button>
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
